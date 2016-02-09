@@ -1,5 +1,9 @@
 <?php
 
+/***********************************
+ * Este archivo quizás no sea necesario. Pendiente de comprobar
+ ***********************************/
+
 define ('ERROR_DESPLEGABLES', 0x01);
 define ('ERROR_CLIENTE', 0x02);
 define ('ERROR_DISTRIBUIDOR', 0x04);
@@ -87,7 +91,7 @@ function lee_caracteristicas($tipo = -1) {
 }
 
 /************************************
- * Devuelve el c�digo html de un desplegable con los tipos
+ * Devuelve el código html de un desplegable con los tipos
  ****************************/
 function crear_desplegable ($listaTipos, $campoTexto, $nombre, $defecto = -1, $onChange = false, $referencia=false, $elementoInicial=false) {
 	$cadena = '';
