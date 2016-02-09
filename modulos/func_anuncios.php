@@ -1,7 +1,8 @@
-<?php
+﻿<?php
 
 /***********************************
- * Este archivo quizás no sea necesario. Pendiente de comprobar
+ * Este archivo quizás no sea necesario. Pendiente de comprobar si hay alguna dependencia o si
+ * está duplicado con otro nombre.
  ***********************************/
 
 define ('ERROR_DESPLEGABLES', 0x01);
